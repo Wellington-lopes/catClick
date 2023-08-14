@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url(./img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+.game-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.cat1{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+    cursor: grab;
+    transition: fadeInOut 1s ease-in-out;
+    padding: 0;
+        
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: blueviolet;
+}
+
+@keyframes fadeInOut {
+   from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+
+}
+
+
